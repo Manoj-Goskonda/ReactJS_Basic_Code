@@ -1,0 +1,259 @@
+/* body {
+  background-color: #e9fddd;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0%;
+  font-family: "Josefin Sans", sans-serif;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
+
+div {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: -30px;
+}
+
+img {
+}
+h1 {
+  margin: auto;
+  padding: 30px;
+  background-color: rgb(250, 218, 218);
+  border-radius: 20px;
+  font-weight: bold;
+}
+
+input {
+  margin: 20px;
+  padding: 20px;
+  border: 10px;
+  width: 40%;
+}
+
+button {
+  margin: auto;
+  padding: 15px 20px;
+  color: white;
+  background: rgb(207, 121, 226);
+  outline: none;
+  border: 2px solid #ecf0f1;
+  text-transform: uppercase;
+  border-radius: 2rem;
+  cursor: pointer;
+}
+.btn {
+  margin-left: 46%;
+  padding: 5px;
+}
+
+.heading_style {
+  padding: 30px 0;
+
+  font-family: "Raleway", sans-serif;
+  text-transform: uppercase;
+  font-size: 13px;
+  letter-spacing: 2px;
+  font-weight: 500;
+  color: #868686;
+  background-color: #fff;
+  font-size: 1.5rem;
+  margin-bottom: 30px;
+}
+
+span {
+  color: #eb6383;
+}
+
+.heading {
+  color: #fd9191;
+
+  text-transform: capitalize;
+  font-weight: bold;
+  text-shadow: 0px 2px 4px #ffe9c5;
+  margin: 70px 0;
+  font-family: "Josefin Sans", sans-serif;
+}
+
+.images img {
+  height: 150px;
+}
+
+.images {
+  display: flex;
+  justify-content: center;
+}
+
+a.acive_class {
+  color: rgb(149, 210, 238);
+  border-bottom: 1px solid red;
+}
+
+.searchbar {
+  width: 50%;
+  height: auto;
+  margin: 0 auto;
+}
+
+.searchbar input {
+  margin: 30px 0;
+  padding: 5px 10px;
+  border-radius: 5px;
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New";
+}
+
+main {
+  width: 90%;
+  margin: 50px auto;
+  border: 2px solid black;
+  color: white;
+  display: grid;
+  grid-template-rows: 150px 150px 150px 150px;
+  grid-template-columns: repeat(3, 1fr) 150px;
+  grid-gap: 20px;
+}
+
+.div1 {
+  background-color: red;
+  grid-column: 1/-1;
+}
+.div2 {
+  background-color: green;
+}
+.div3 {
+  background-color: blue;
+}
+.div4 {
+  background-color: rgb(111, 231, 96);
+}
+.div5 {
+  background-color: orange;
+  grid-row: 2/4;
+  grid-column: 4/5;
+}
+.div6 {
+  background-color: purple;
+  grid-column: 1/ 4;
+}
+.div7 {
+  background-color: peru;
+  grid-row: 4;
+  grid-column: 1/ -1;
+}
+
+.position {
+  width: 50%;
+  height: 100px;
+  margin: 100px;
+  border: 1px solid black;
+  position: relative;
+  background-color: hotpink;
+  justify-content: center;
+}
+
+.one {
+  width: 50px;
+  height: 50px;
+  background-color: red;
+  display: inline-block;
+  z-index: 3;
+  transition-property: all;
+  transition-duration: 2s;
+}
+.one:hover {
+  width: 200px;
+  background-color: mediumslateblue;
+}
+
+.two {
+  width: 50px;
+  height: 50px;
+  background-color: blue;
+  display: inline-block;
+  position: relative;
+  z-index: 3;
+}
+
+.three {
+  width: 50px;
+  height: 50px;
+  background-color: green;
+  display: inline-block;
+  position: absolute;
+  z-index: 2;
+}
+
+@keyframes changecolor {
+  0% {
+    background-color: red;
+  }
+  25% {
+    width: 300px;
+  }
+  50% {
+    background-color: rgb(194, 115, 247);
+  }
+  75% {
+    width: 200px;
+  }
+  100% {
+    background-color: rgb(255, 146, 57);
+  }
+}
+
+#animate {
+  background-color: rgb(247, 132, 151);
+  width: 200px;
+  height: 200px;
+  animation-name: changecolor;
+  animation-duration: 4s;
+  animation-delay: 2s;
+  animation-iteration-count: infinite;
+}
+#animate1 {
+  background-color: rgb(247, 132, 151);
+  width: 200px;
+  height: 200px;
+  animation-name: changecolor;
+  animation-duration: 4s;
+  animation-delay: 2s;
+  animation-iteration-count: infinite;
+  animation-direction: reverse;
+}
+
+.div1 {
+  width: 70%;
+  float: left;
+  background-color: rgb(250, 172, 109);
+}
+
+.div2 {
+  width: 30%;
+  float: left;
+  background-color: rgb(240, 47, 47);
+}
+h1 {
+  font-size: 30px;
+} */
+
+.flex-container {
+  margin: 0px;
+  padding: 0;
+  border: 1px solid black;
+  background: lightcoral;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+.flex-child {
+  margin: 10px;
+  padding: 20px;
+  background-color: lightgoldenrodyellow;
+}
